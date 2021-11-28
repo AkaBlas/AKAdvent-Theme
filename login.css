@@ -1,0 +1,14 @@
+.login {
+	background: rgb(74,85,131) !important;
+    background: radial-gradient(circle, rgba(74,85,131,1) 0%, rgba(3,15,67,1) 100%) !important;
+}
+.login #backtoblog a, .login #nav a {
+    color: #ffec00 !important;
+}
+#login h1 a, .login h1 a {
+	background-image: url('./assets/logo.png');
+	height: 150px;
+	width: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
