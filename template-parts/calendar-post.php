@@ -9,7 +9,7 @@
 $number = get_the_date( 'j');
 ?>
 <a href="<?php echo esc_url( get_permalink() ); ?>" id="post-<?php the_ID(); ?>" <?php post_class('tuer-'. $number); ?>>
-	<img src="<?php echo get_template_directory_uri().'/assets/tuerchen.png'; ?>" alt="<?php printf ( esc_html__( 'Tür %s', 'akadvent' ), $number ); ?>">
+	<img src="<?php echo get_template_directory_uri().'/assets/' . ($number < 25 ? 'tuer' . $number : 'tuerchen') . '.png'; ?>" alt="<?php printf ( esc_html__( 'Tür %s', 'akadvent' ), $number ); ?>">
 	<div>
 		<strong><?php echo get_the_date( 'j. F' ); ?></strong>
 		<span>

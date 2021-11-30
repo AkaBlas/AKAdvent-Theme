@@ -9,5 +9,5 @@
 $number = $args['number'];
 ?>
 <a class="tuer-<?php echo $number; ?>" disabled>
-	<img src="<?php echo get_template_directory_uri().'/assets/tuerchen.png'; ?>" alt="<?php printf ( esc_html__( 'Tür %s', 'akadvent' ), $number ); ?>">
+	<img src="<?php echo get_template_directory_uri().'/assets/tuer' . $number . '.png'; ?>" alt="<?php printf ( esc_html__( 'Tür %s', 'akadvent' ), $number ); ?>">
 </a>
