@@ -11,13 +11,19 @@
 
 	<div class="inner">
 	
+	<div class="site-logo">
 	<?php if ( has_custom_logo() ) : ?>
-		<div class="site-logo"><?php the_custom_logo(); ?></div>
+		<?php the_custom_logo(); ?>
 	<?php else : ?>
-		<div class="site-logo">
+		<?php if ( is_front_page() && ! is_paged() ) : ?>
 			<img src="<?php echo get_template_directory_uri().'/assets/logo.png'; ?>" alt="Logo" width="100" height="100">
-		</div>
+		<?php else : ?>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+				<img src="<?php echo get_template_directory_uri().'/assets/logo.png'; ?>" alt="Logo" width="100" height="100">
+			</a>
+		<?php endif; ?>
 	<?php endif; ?>
+	</div>
 	
 	<div class="site-branding">
 
