@@ -156,7 +156,9 @@ textarea {
     transition: opacity 0.3s
 }
 
-.list a:before {
+/* Generic tuerchen */
+/* In the theme options, you can add an additional number for generic 'tuerchen.png' entry images. */
+a.generic-tuerchen:before {
     display: block;
     position: absolute;
     color: #2f3a68;
@@ -164,99 +166,99 @@ textarea {
     z-index: 10;
 }
 
-a.tuer-1:before {
+a.generic-tuerchen.tuer-1:before {
     content: "1";
 }
 
-a.tuer-2:before {
+a.generic-tuerchen.tuer-2:before {
     content: "2";
 }
 
-a.tuer-3:before {
+a.generic-tuerchen.tuer-3:before {
     content: "3";
 }
 
-a.tuer-4:before {
+a.generic-tuerchen.tuer-4:before {
     content: "4";
 }
 
-a.tuer-5:before {
+a.generic-tuerchen.tuer-5:before {
     content: "5";
 }
 
-a.tuer-6:before {
+a.generic-tuerchen.tuer-6:before {
     content: "6";
 }
 
-a.tuer-7:before {
+a.generic-tuerchen.tuer-7:before {
     content: "7";
 }
 
-a.tuer-8:before {
+a.generic-tuerchen.tuer-8:before {
     content: "8";
 }
 
-a.tuer-9:before {
+a.generic-tuerchen.tuer-9:before {
     content: "9";
 }
 
-a.tuer-10:before {
+a.generic-tuerchen.tuer-10:before {
     content: "10";
 }
 
-a.tuer-11:before {
+a.generic-tuerchen.tuer-11:before {
     content: "11";
 }
 
-a.tuer-12:before {
+a.generic-tuerchen.tuer-12:before {
     content: "12";
 }
 
-a.tuer-13:before {
+a.generic-tuerchen.tuer-13:before {
     content: "13";
 }
 
-a.tuer-14:before {
+a.generic-tuerchen.tuer-14:before {
     content: "14";
 }
 
-a.tuer-15:before {
+a.generic-tuerchen.tuer-15:before {
     content: "15";
 }
 
-a.tuer-16:before {
+a.generic-tuerchen.tuer-16:before {
     content: "16";
 }
 
-a.tuer-17:before {
+a.generic-tuerchen.tuer-17:before {
     content: "17";
 }
 
-a.tuer-18:before {
+a.generic-tuerchen.tuer-18:before {
     content: "18";
 }
 
-a.tuer-19:before {
+a.generic-tuerchen.tuer-19:before {
     content: "19";
 }
 
-a.tuer-20:before {
+a.generic-tuerchen.tuer-20:before {
     content: "20";
 }
 
-a.tuer-21:before {
+a.generic-tuerchen.tuer-21:before {
     content: "21";
 }
 
-a.tuer-22:before {
+a.generic-tuerchen.tuer-22:before {
     content: "22";
 }
 
-a.tuer-23:before {
+a.generic-tuerchen.tuer-23:before {
     content: "23";
 }
 
-a.tuer-24:before {
+a.generic-tuerchen.tuer-24:before {
     content: "24";
 }
 
@@ -427,7 +429,7 @@ img {
         max-width: 249px !important;
     }
 
-    a.tuer-24:before {
+    a.generic-tuerchen.tuer-24:before {
         font-size: 32px;
         margin-top: 110px;
     }
