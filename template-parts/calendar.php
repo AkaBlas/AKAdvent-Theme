@@ -8,7 +8,7 @@
 $category = get_category_by_slug( $args['category'] )->term_id;
 ?>
 
-<div class="list">
+<div class="list list-<?php echo $args['category']; ?>">
 	<div class="intro">
 		<img src="<?php echo get_template_directory_uri().'/assets/weihnachtsloewe.png'; ?>"
 				alt="<?php esc_html_e( 'Weihnachtlicher Löwe mit einigen Geschenken', 'akadvent' ); ?>">
