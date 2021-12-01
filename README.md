@@ -19,7 +19,9 @@ Posts in the category are then listed according to their creation date (ASC). Pa
 Furthermore there is now the custom post field ```guest-author``` within posts with which you can set the author. The normal author is overwritten and/or deleted.
 
 ## Features
-By default, ```assets/tuerchen.png``` is used to display the entries and ```assets/logo.png``` is used for the logo. Both images can be replaced and the logo even simpler by a custom logo in the Customizer. Also, the logo is used on the custom login page. ```assets/weihnachtsloewe.png``` is used within the listing as a jaunty image.
+By default, ```assets/tuerchen.png``` is used to display the entries and ```assets/logo.png``` is used for the logo.
+Both images can be replaced and the logo even simpler by a custom logo in the Customizer. Do have a different picture for each entry, you can edit `template-parts/calendar-placeholder.php` to pick the file path in dependence of the `$number$` parameter, e.g. `'/assets/tuerchen' . $number ' '.png'`.
+Also, the logo is used on the custom login page. ```assets/weihnachtsloewe.png``` is used within the listing as a jaunty image.
 
 If the calendar should only be available internally, the Wordpress blog can be protected with the plugin [Password Protected](https://github.com/benhuson/password-protected).
 
